@@ -17,24 +17,21 @@ Enum can scan for:
 Clone the repository and enter the project directory.
 
 ```bash
-git clone 
+git clone https://github.com/ashvr0/Enum.git
 cd Enum
 ```
 
 Create a virtual environment:
-
 ```bash
 python -m venv .venv
 ```
 
 Activate it on Linux:
-
 ```bash
 source .venv/bin/activate
 ```
 
 Install the required dependencies:
-
 ```bash
 python -m pip install -r requirements.txt
 ```
@@ -56,7 +53,7 @@ python -m enumtool.cli example.com --html report.html
 ```
 
 ## Notes
-If you encounter a problem with the project, please open an issue in the repository.
+If you encounter issues, open an issue: [issue](https://github.com/ashvr0/Enum/issues/new).
 
 ## License
 
@@ -64,4 +61,4 @@ This project is intended for authorized security testing and research only.
 
 Only scan targets that you have explicit permission to assess. The author is not responsible for misuse of this tool or for any consequences resulting from unauthorized scanning.
 
-This project is licensed under the GPLv3.0. See the `LICENSE` file for details.
+This project is licensed under the **GPLv3.0** — see the [LICENSE](LICENSE) file for details.
